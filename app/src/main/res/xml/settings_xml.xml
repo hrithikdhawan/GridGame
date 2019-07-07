@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_title">
+    <EditTextPreference
+        android:defaultValue="@string/default_array_length"
+        android:inputType="number"
+        android:key="@string/setting_length_key"
+        android:title="@string/setting_array_length"
+        android:visibility="visible"/>
+</PreferenceScreen>

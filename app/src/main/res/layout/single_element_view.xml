@@ -10,7 +10,7 @@
         android:textAlignment="center"
         android:id="@+id/texting"
         android:text="1"
-
+        android:background="@color/colorOrangeBackground"
         android:textColor="@color/colorPrimary"
         android:textSize="24dp"/>
 
