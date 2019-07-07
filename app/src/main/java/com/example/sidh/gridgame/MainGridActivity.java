@@ -104,5 +104,6 @@ public class MainGridActivity extends AppCompatActivity {
         SharedPreferences sharedPreference= PreferenceManager.getDefaultSharedPreferences(this);
         String length=sharedPreference.getString(getString(R.string.setting_length_key),getString(R.string.default_array_length));
         arrayLength=Integer.parseInt(length);
+        if (arrayLength>99) arrayLength=99;
     }
 }
